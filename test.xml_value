@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="btnPas"> Boş Geç ></string>
+    <string name="a">Boş Geç ></string>
+    <string name="b">Boş Geç ></string>
+    <string name="c">Boş Geç ></string>
+    <string name="d">Boş Geç ></string>
+    <string name="test_sonucu">Test Sonucum</string>
+    <string name="ecvb">E Şıkkı Cevabı</string>
+
+
+</resources>
