@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"   xmlns:android="http://schemas.android.com/apk/res/android"
+            android:background="#de8f10">
+    <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:background="#de8f10" android:paddingLeft="10dp">
+
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Oryantiring Nedir ?"
+              android:layout_column="1" android:textColor="#0600d3"
+              android:textSize="20dp" android:layout_gravity="center" android:gravity="center"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/O_nedir"
+                android:id="@+id/textView2" android:layout_column="2" android:textColor="#011aa0"
+                android:layout_gravity="center|left"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="200dp" android:text="Yarış Başlangıcı"
+                  android:id="@+id/textView" android:layout_column="2" android:textColor="#2cf90e" android:textSize="18dp"
+                  android:background="@drawable/bahri" android:layout_marginRight="5dp"/>
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+                  android:text="@string/O_tarih" android:id="@+id/textView4" android:layout_column="2"
+                  android:textColor="#011aa0" android:layout_gravity="center"
+                  android:layout_marginLeft="20dp" android:textSize="20dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="250dp" android:text="IOF"
+                  android:id="@+id/textView30" android:layout_column="2" android:textColor="#2cf90e"
+                  android:textSize="18dp" android:background="@drawable/iof_logo" android:layout_marginRight="5dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="@string/Dunya_tarihi" android:id="@+id/textView5" android:layout_column="2"
+                  android:textColor="#011aa0" android:layout_gravity="center|left" android:layout_marginLeft="10dp"
+                  android:layout_marginRight="5dp" android:background="#06e9ff"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="@string/T1" android:id="@+id/textView6" android:layout_column="2"
+                  android:textColor="#011aa0" android:layout_gravity="center|left" android:layout_marginLeft="5dp"
+                  android:layout_marginRight="5dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="@string/T2" android:id="@+id/textView7" android:layout_column="2"
+                  android:textColor="#011aa0" android:layout_gravity="center|left" android:layout_marginLeft="5dp"
+                  android:layout_marginRight="5dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="@string/T3" android:id="@+id/textView8" android:layout_column="2"
+                  android:textColor="#011aa0" android:layout_gravity="center|left" android:layout_marginLeft="5dp"
+                  android:layout_marginRight="5dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="@string/T4" android:id="@+id/textView9" android:layout_column="2"
+                  android:textColor="#011aa0" android:layout_gravity="center|left" android:layout_marginLeft="5dp"
+                  android:layout_marginRight="5dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/T5"
+                  android:id="@+id/textView10" android:layout_column="2" android:textColor="#011aa0"
+                  android:layout_gravity="center|left" android:layout_marginLeft="5dp"
+                  android:layout_marginRight="5dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/T6"
+                  android:id="@+id/textView11" android:layout_column="2" android:textColor="#011aa0"
+                  android:layout_gravity="center|left" android:layout_marginLeft="5dp"
+                  android:layout_marginRight="5dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/T7"
+                  android:id="@+id/textView12" android:layout_column="2" android:textColor="#011aa0"
+                  android:layout_gravity="center|left" android:layout_marginLeft="5dp"
+                  android:layout_marginRight="5dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="250dp" android:text="TOF"
+                  android:id="@+id/textView29" android:layout_column="2" android:textColor="#2cf90e"
+                  android:textSize="18dp" android:background="@drawable/ori_fed_logo" android:layout_marginRight="5dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="@string/Turk_tarihi" android:id="@+id/textView1" android:layout_column="2"
+                  android:textColor="#011aa0" android:layout_gravity="center|left" android:layout_marginLeft="10dp"
+                  android:layout_marginRight="5dp" android:background="#06e9ff"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/T8"
+                  android:id="@+id/textView13" android:layout_column="2" android:textColor="#011aa0"
+                  android:layout_gravity="center|left" android:layout_marginLeft="5dp"
+                  android:layout_marginRight="5dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/T9"
+                  android:id="@+id/textView3" android:layout_column="2" android:textColor="#011aa0"
+                  android:layout_gravity="center|left" android:layout_marginLeft="5dp"
+                  android:layout_marginRight="5dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/T10"
+                  android:id="@+id/textView14" android:layout_column="2" android:textColor="#011aa0"
+                  android:layout_gravity="center|left" android:layout_marginLeft="5dp"
+                  android:layout_marginRight="5dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/T11"
+                  android:id="@+id/textView15" android:layout_column="2" android:textColor="#011aa0"
+                  android:layout_gravity="center|left" android:layout_marginLeft="5dp"
+                  android:layout_marginRight="5dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/T12"
+                  android:id="@+id/textView16" android:layout_column="2" android:textColor="#011aa0"
+                  android:layout_gravity="center|left" android:layout_marginLeft="5dp"
+                  android:layout_marginRight="5dp"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content"
+                      android:layout_height="wrap_content" android:id="@+id/linearLayout"
+                      android:layout_marginBottom="-20dp">
+            <ImageView android:layout_width="120dp" android:layout_height="wrap_content" android:src="@drawable/ori1"/>
+            <ImageView android:layout_width="120dp" android:layout_height="180dp" android:src="@drawable/ori2"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content"
+                      android:layout_height="wrap_content" android:id="@+id/linearLayout1"
+                      android:layout_marginBottom="-20dp" android:layout_marginTop="-20dp">
+            <ImageView android:layout_width="120dp" android:layout_height="180dp" android:src="@drawable/ori3"/>
+            <ImageView android:layout_width="120dp" android:layout_height="180dp" android:src="@drawable/ori4"/>
+        </LinearLayout>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="@string/O_turleri" android:id="@+id/textView26" android:layout_column="2"
+                  android:textColor="#011aa0" android:layout_gravity="center|left" android:layout_marginLeft="10dp"
+                  android:layout_marginRight="5dp" android:background="#06e9ff"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/T13"
+                  android:id="@+id/textView17" android:layout_column="2" android:textColor="#011aa0"
+                  android:layout_gravity="center|left" android:layout_marginLeft="5dp"
+                  android:layout_marginRight="5dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/T14"
+                  android:id="@+id/textView18" android:layout_column="2" android:textColor="#011aa0"
+                  android:layout_gravity="center|left" android:layout_marginLeft="5dp"
+                  android:layout_marginRight="5dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/T13a"
+                  android:id="@+id/textView28" android:layout_column="2" android:textColor="#011aa0"
+                  android:layout_gravity="center|left" android:layout_marginLeft="5dp"
+                  android:layout_marginRight="5dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/T14a"
+                  android:id="@+id/textView27" android:layout_column="2" android:textColor="#011aa0"
+                  android:layout_gravity="center|left" android:layout_marginLeft="5dp"
+                  android:layout_marginRight="5dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="@string/T15" android:id="@+id/textView22" android:layout_column="2"
+                  android:textColor="#011aa0" android:layout_gravity="center|left" android:layout_marginLeft="10dp"
+                  android:layout_marginRight="5dp" android:background="#06e9ff"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/T16"
+                  android:id="@+id/textView19" android:layout_column="2" android:textColor="#011aa0"
+                  android:layout_gravity="center|left" android:layout_marginLeft="5dp"
+                  android:layout_marginRight="5dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/T17"
+                  android:id="@+id/textView20" android:layout_column="2" android:textColor="#011aa0"
+                  android:layout_gravity="center|left" android:layout_marginLeft="5dp"
+                  android:layout_marginRight="5dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/T18"
+                  android:id="@+id/textView21" android:layout_column="2" android:textColor="#011aa0"
+                  android:layout_gravity="center|left" android:layout_marginLeft="5dp"
+                  android:layout_marginRight="5dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/T19"
+                  android:id="@+id/textView23" android:layout_column="2" android:textColor="#011aa0"
+                  android:layout_gravity="center|left" android:layout_marginLeft="5dp"
+                  android:layout_marginRight="5dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/T20"
+                  android:id="@+id/textView24" android:layout_column="2" android:textColor="#011aa0"
+                  android:layout_gravity="center|left" android:layout_marginLeft="5dp"
+                  android:layout_marginRight="5dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/T21"
+                  android:id="@+id/textView25" android:layout_column="2" android:textColor="#011aa0"
+                  android:layout_gravity="center|left" android:layout_marginLeft="5dp"
+                  android:layout_marginRight="5dp"/>
+
+    </TableLayout>
+        </ScrollView>
