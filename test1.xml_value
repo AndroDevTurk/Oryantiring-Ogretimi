@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="u1cvbkey">
+
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>Cevap Anahtarı</item>
+    </string-array>
+    <integer name="u1sorusay">4</integer>
+
+
+    <string name="u1s1">Ori. Fed. Bşkn. ı kaç sene görev yapabilir?</string>
+    <string name="u1c1a">5</string>
+    <string name="u1c1b">3</string>
+    <string name="u1c1c">2</string>
+    <string name="u1c1d">1</string>
+    <string name="u1c1e">Yenisi seçilene kadar</string>
+
+    <string name="u1s2">Aday hakemlik kaç sene sürer?</string>
+    <string name="u1c2a">1</string>
+    <string name="u1c2b">2</string>
+    <string name="u1c2c">3</string>
+    <string name="u1c2d">5</string>
+    <string name="u1c2e">Hakemliği düşene kadar</string>
+
+    <string name="u1s3">Bu program kim  geliştirdi?</string>
+    <string name="u1c3a">Eyüp</string>
+    <string name="u1c3b">Mikail</string>
+    <string name="u1c3c">AndroDevTurk</string>
+    <string name="u1c3d">Ben</string>
+    <string name="u1c3e">Nebilem ben</string>
+
+
+</resources>
