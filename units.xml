@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"   xmlns:android="http://schemas.android.com/apk/res/android"
+            android:background="#de8f10">
+        <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:background="#de8f10">
+
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+                      android:text="Oriyantiring Sporu Dersi" android:layout_column="0" android:textColor="#0600d3"
+                      android:textSize="20dp" android:layout_gravity="center" android:gravity="center"
+                      android:layout_margin="15dp"/>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="10dp">
+
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Harita Türleri"
+                          android:layout_column="0" android:textColor="#2cf90e"
+                          android:textSize="18dp" android:layout_gravity="center|left" android:gravity="center"/>
+                <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="İlk Ünite"
+                android:id="@+id/BtnUnt1" android:layout_column="1"/>
+            </TableRow>
+    <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+        <TextView android:layout_width="100dp" android:layout_height="wrap_content" android:text="Haritanın Dili"
+                  android:layout_column="0" android:textColor="#2cf90e" android:textSize="18dp"
+                  android:layout_gravity="center_vertical|left" android:layout_marginLeft="10dp"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2. Ünite"
+                android:id="@+id/BtnUnt2" android:layout_column="1"/>
+    </TableRow>
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_width="100dp" android:layout_height="wrap_content"
+                  android:text="Yarışma Alanı" android:id="@+id/textView3" android:layout_column="0"
+                  android:textColor="#2cf90e" android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                  android:layout_marginLeft="10dp"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3. Ünite"
+                android:id="@+id/BtnUnt3" android:layout_column="1"/>
+    </TableRow>
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_width="100dp" android:layout_height="wrap_content" android:text="Oryantiring Nedir?"
+                  android:id="@+id/textView1" android:layout_column="0" android:textColor="#2cf90e"
+                  android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                  android:layout_marginLeft="10dp"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="4. Ünite"
+                android:id="@+id/BtnUnt4" android:layout_column="1"/>
+    </TableRow>
+            <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    >
+                <TextView android:layout_width="100dp" android:layout_height="wrap_content"
+                          android:text="Ori" android:id="@+id/textView" android:layout_column="0"
+                          android:textColor="#2cf90e" android:textSize="18dp"
+                          android:layout_gravity="center_vertical|left" android:layout_marginLeft="10dp"/>
+                <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5. Ünite"
+                        android:id="@+id/BtnUnt5" android:layout_column="1"/>
+            </TableRow>
+
+
+        </TableLayout>
+        </ScrollView>
