@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+<ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent" android:background="#de8f10">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:layout_marginLeft="5dp">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Oryantiring Sorusu"
+                    android:id="@+id/txtSoru" android:textColor="#ffffff" android:textSize="18dp"
+                    android:layout_weight=".5" android:textStyle="bold"/>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgSoru" android:src="@android:drawable/ic_menu_help" android:layout_weight=".5"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="A"
+                    android:id="@+id/btnA" android:textColor="#ff0e0b" android:textStyle="bold"
+                    android:textSize="25dp" android:typeface="serif" android:layout_gravity="center|right"
+                    android:clickable="true" android:background="#5590ff"
+                    android:layout_margin="4dp"/>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:id="@+id/imgA" android:src="@android:drawable/ic_media_rew"
+                       android:layout_gravity="top"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:id="@+id/txtA" android:textColor="#ffffff" android:textSize="18dp"
+                      android:text=" A Şıkkı Cevabı "/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+                      android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="B"
+                    android:id="@+id/btnB" android:layout_gravity="center|right"
+                    android:textColor="#ff0e0b" android:textStyle="bold" android:textSize="25dp"
+                    android:typeface="serif" android:clickable="true"
+                    android:background="#5590ff" android:layout_margin="4dp"/>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/imgB"
+                       android:src="@android:drawable/ic_media_rew" android:layout_gravity="top"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="B Şıkkı Cevabı " android:id="@+id/txtB" android:textColor="#ffffff"
+                      android:textSize="18dp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+                      android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="C"
+                    android:id="@+id/btnC" android:layout_gravity="center|right"
+                    android:textColor="#ff0e0b" android:textStyle="bold" android:textSize="25dp"
+                    android:typeface="serif" android:clickable="true"
+                    android:background="#5590ff" android:layout_margin="4dp"/>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/imgC"
+                       android:src="@android:drawable/ic_media_rew" android:layout_gravity="top"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="C Şıkkı Cevabı " android:id="@+id/txtC" android:textColor="#ffffff"
+                      android:textSize="18dp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+                      android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="D"
+                    android:id="@+id/btnD" android:layout_gravity="center|right" android:textColor="#ff0e0b"
+                    android:textStyle="bold" android:textSize="25dp" android:typeface="serif"
+                    android:clickable="true" android:background="#5590ff"
+                    android:layout_margin="4dp"/>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/imgD"
+                       android:src="@android:drawable/ic_media_rew" android:layout_gravity="top"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="D Şıkkı Cevabı " android:id="@+id/txtD" android:textColor="#ffffff"
+                      android:textSize="18dp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+                      android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="E"
+                    android:id="@+id/btnE" android:layout_gravity="center|right" android:textColor="#ff0e0b"
+                    android:textStyle="bold" android:textSize="25dp" android:typeface="serif"
+                    android:clickable="true" android:background="#5590ff"
+                    android:layout_margin="4dp"/>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/imgE"
+                       android:src="@android:drawable/ic_media_rew" android:layout_gravity="top"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="@string/ecvb" android:id="@+id/txtE" android:textColor="#ffffff"
+                      android:textSize="18dp"/>
+         </LinearLayout>
+      </LinearLayout>
+    </ScrollView>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CopyRight"
+                    android:layout_gravity="center|bottom"
+                    android:textColor="#ff1012" android:layout_marginBottom="5dp"/>
+    <Button
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:text="@string/btnPas"
+            android:id="@+id/btnPas" android:layout_gravity="right|bottom" android:textSize="17dp"
+            android:textColor="#ff0a05" android:background="#5590ff" android:layout_marginBottom="40dp"
+            android:layout_marginRight="5dp"/>
+
+
+</FrameLayout>
