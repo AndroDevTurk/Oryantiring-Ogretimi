@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"   xmlns:android="http://schemas.android.com/apk/res/android"
+            android:background="#de8f10">
+    <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:background="#de8f10" android:paddingLeft="10dp">
+
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Harita Türleri"
+              android:layout_column="1" android:textColor="#0600d3"
+              android:textSize="20dp" android:layout_gravity="center" android:gravity="center"/>
+            <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Siyasi "
+                        android:id="@+id/textView2" android:layout_column="2" android:textColor="#2cf90e"
+                        android:textSize="18dp" android:layout_gravity="center|left"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_gravity="left|center_vertical">
+
+                <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:src="@drawable/resim1"
+                android:layout_column="2" android:layout_margin="10dp"/>
+            </TableRow>
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="100dp" android:layout_height="wrap_content" android:text="Topografik  "
+                          android:id="@+id/textView" android:layout_column="2" android:textColor="#2cf90e" android:textSize="18dp"
+                          android:layout_gravity="center|left"/>
+            </TableRow>
+            <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                <ImageView android:layout_width="300dp" android:layout_height="150dp" android:id="@+id/imageView1"
+                   android:src="@drawable/resim2"
+                   android:layout_column="2" android:layout_margin="10dp"/>
+    </TableRow>
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="100dp" android:layout_height="wrap_content"
+                          android:text="Kent Planı  " android:id="@+id/textView3" android:layout_column="2"
+                          android:textColor="#2cf90e" android:textSize="18dp" android:layout_gravity="center|left"/>
+            </TableRow>
+            <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_width="300dp" android:layout_height="150dp"
+                   android:id="@+id/imageView2"
+                   android:src="@drawable/resim3"
+                   android:layout_column="2" android:layout_margin="10dp"/>
+    </TableRow>
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Oryantiring Parkuru"
+                  android:id="@+id/textView1" android:layout_column="2" android:textColor="#2cf90e"
+                  android:textSize="18dp" android:layout_gravity="center|left"/>
+    </TableRow>
+            <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:layout_gravity="left|center_vertical">
+
+                <ImageView android:layout_width="300dp" android:layout_height="wrap_content"
+                           android:src="@drawable/resim4"
+                           android:layout_column="2" android:layout_margin="10dp"/>
+            </TableRow>
+            <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_gravity="left|center_vertical">
+                <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Uydu Fotografı  "
+                        android:layout_column="2" android:textColor="#2cf90e"
+                        android:textSize="18dp" android:layout_gravity="center|left"/>
+            </TableRow>
+            <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_gravity="center_vertical|left">
+                <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/resim5a"
+                        android:layout_column="2" android:layout_margin="10dp"/>
+            </TableRow>
+            <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_gravity="center_vertical|left">
+                <TextView android:layout_width="100dp" android:layout_height="wrap_content"
+                          android:text="Oryantiring Haritası" android:layout_column="2" android:textColor="#2cf90e"
+                          android:textSize="18dp" android:layout_gravity="center|left"/>
+            </TableRow>
+            <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:layout_gravity="center_vertical|left">
+                <ImageView android:layout_width="300dp" android:layout_height="150dp"
+                           android:src="@drawable/resim5b" android:layout_column="2" android:layout_margin="10dp"/>
+            </TableRow>
+
+        </TableLayout>
+        </ScrollView>
