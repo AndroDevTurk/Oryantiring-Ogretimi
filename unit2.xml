@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"   xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="#de8f10">
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:background="#de8f10">
+
+
+    <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:text="Haritanın Dili - Mavi"
+                    android:layout_column="1" android:textColor="#0903da"
+                    android:textSize="20dp" android:layout_gravity="center"
+                    android:gravity="center|center_vertical" android:background="@drawable/blue_background"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Suyu anlatır  : "
+                          android:id="@+id/textView" android:layout_column="2" android:textColor="#3f1bf9"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp"/>
+            </TableRow>
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="        "
+                          android:layout_column="2" android:textColor="#0610f9" android:textSize="18dp"
+                          android:layout_gravity="center_vertical|left" android:layout_marginLeft="10dp"
+                          android:id="@+id/textView10"/>
+            </TableRow>
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1"
+                          android:id="@+id/textView3" android:layout_column="0" android:textColor="#2cf90e"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Göl "
+                          android:layout_column="2" android:textColor="#0610f9"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp"/>
+            </TableRow>
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2"
+                          android:id="@+id/textView4" android:layout_column="0" android:textColor="#2cf90e"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bataklık "
+                          android:layout_column="2" android:textColor="#0610f9"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp"/>
+            </TableRow>
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3"
+                          android:layout_column="0" android:textColor="#2cf90e"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Belirsiz Bataklık "
+                          android:layout_column="2" android:textColor="#0610f9" android:textSize="18dp"
+                          android:layout_gravity="center_vertical|left" android:layout_marginLeft="10dp"
+                          android:id="@+id/textView1"/>
+            </TableRow>
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="4"
+                          android:layout_column="0" android:textColor="#2cf90e"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Kuyu "
+                          android:layout_column="2" android:textColor="#0610f9" android:textSize="18dp"
+                          android:layout_gravity="center_vertical|left" android:layout_marginLeft="10dp"
+                          android:id="@+id/textView2"/>
+            </TableRow>
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5"
+                          android:layout_column="0" android:textColor="#2cf90e"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Su çukuru "
+                          android:layout_column="2" android:textColor="#0610f9" android:textSize="18dp"
+                          android:layout_gravity="center_vertical|left" android:layout_marginLeft="10dp"
+                          android:id="@+id/textView5"/>
+            </TableRow>
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="6"
+                          android:layout_column="0" android:textColor="#2cf90e"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Çeşme "
+                          android:layout_column="2" android:textColor="#0610f9" android:textSize="18dp"
+                          android:layout_gravity="center_vertical|left" android:layout_marginLeft="10dp"
+                          android:id="@+id/textView6"/>
+            </TableRow>
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="7"
+                          android:layout_column="0" android:textColor="#2cf90e"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Nehir-Kanal  "
+                          android:layout_column="2" android:textColor="#0610f9" android:textSize="18dp"
+                          android:layout_gravity="center_vertical|left" android:layout_marginLeft="10dp"
+                          android:id="@+id/textView7"/>
+            </TableRow>
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="8"
+                          android:layout_column="0" android:textColor="#2cf90e"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Dere "
+                          android:layout_column="2" android:textColor="#0610f9" android:textSize="18dp"
+                          android:layout_gravity="center_vertical|left" android:layout_marginLeft="10dp"
+                          android:id="@+id/textView8"/>
+            </TableRow>
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="9"
+                          android:layout_column="0" android:textColor="#2cf90e"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Belirsiz Dere "
+                          android:layout_column="2" android:textColor="#0610f9" android:textSize="18dp"
+                          android:layout_gravity="center_vertical|left" android:layout_marginLeft="10dp"
+                          android:id="@+id/textView9"/>
+            </TableRow>
+        </TableLayout>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="270dp"
+                android:layout_column="2" android:src="@drawable/resim_mavi"/>
+
+    </LinearLayout>
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="Haritanın Dili - Sarı"
+            android:layout_column="1" android:textColor="#fff902"
+            android:textSize="20dp" android:layout_gravity="center"
+            android:gravity="center|center_vertical" android:background="@drawable/blue_background"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Açık alanları anlatır  : "
+                          android:id="@+id/textView" android:layout_column="2" android:textColor="#3f1bf9"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp" android:singleLine="false" android:width="150dp"/>
+            </TableRow>
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="        "
+                          android:layout_column="2" android:textColor="#0610f9" android:textSize="18dp"
+                          android:layout_gravity="center_vertical|left" android:layout_marginLeft="10dp"
+                          android:id="@+id/textView10"/>
+            </TableRow>
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1"
+                          android:id="@+id/textView3" android:layout_column="0" android:textColor="#2cf90e"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Açık Alan "
+                          android:layout_column="2" android:textColor="#0610f9"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp"/>
+            </TableRow>
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2"
+                          android:id="@+id/textView4" android:layout_column="0" android:textColor="#2cf90e"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Yarı Açık Alan "
+                          android:layout_column="2" android:textColor="#0610f9"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp"/>
+            </TableRow>
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3"
+                          android:layout_column="0" android:textColor="#2cf90e"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ekili alan "
+                          android:layout_column="2" android:textColor="#0610f9" android:textSize="18dp"
+                          android:layout_gravity="center_vertical|left" android:layout_marginLeft="10dp"
+                          android:id="@+id/textView1"/>
+            </TableRow>
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="4"
+                          android:layout_column="0" android:textColor="#2cf90e"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left|top"
+                          android:layout_marginLeft="10dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Açık ve kısmen ekili engebeli arazi "
+                          android:layout_column="2" android:textColor="#0610f9" android:textSize="18dp"
+                          android:layout_gravity="center_vertical|left" android:layout_marginLeft="10dp"
+                          android:id="@+id/textView2" android:width="200dp"/>
+            </TableRow>
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+            </TableRow>
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+            </TableRow>
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+            </TableRow>
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+            </TableRow>
+        </TableLayout>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="270dp"
+                android:layout_column="2" android:src="@drawable/resim_sari"/>
+    </LinearLayout>
+
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="Haritanın Dili - Siyah"
+            android:layout_column="1" android:textColor="#010100"
+            android:textSize="20dp" android:layout_gravity="center"
+            android:gravity="center|center_vertical" android:background="@drawable/blue_background"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Yapay nesneleri anlatır:  "
+                          android:layout_column="1" android:textColor="#3f1bf9"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp" android:singleLine="false" android:width="150dp"/>
+            </TableRow>
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="        "
+                          android:layout_column="1" android:textColor="#0610f9" android:textSize="18dp"
+                          android:layout_gravity="center_vertical|left" android:layout_marginLeft="10dp"
+                        />
+            </TableRow>
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1"
+                          android:layout_column="0" android:textColor="#2cf90e"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Çitler "
+                          android:layout_column="1" android:textColor="#0610f9"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp"/>
+            </TableRow>
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2"
+                          android:layout_column="0" android:textColor="#2cf90e"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Taşlar ve kayalar "
+                          android:layout_column="1" android:textColor="#0610f9"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp"/>
+            </TableRow>
+
+
+
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3"
+                          android:layout_column="0" android:textColor="#2cf90e"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Kule ve antenler "
+                          android:layout_column="1" android:textColor="#0610f9" android:textSize="18dp"
+                          android:layout_gravity="center_vertical|left" android:layout_marginLeft="10dp"/>
+            </TableRow>
+
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="4"
+                          android:layout_column="0" android:textColor="#2cf90e"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Binalar "
+                          android:layout_column="1" android:textColor="#0610f9" android:textSize="18dp"
+                          android:layout_gravity="center_vertical|left" android:layout_marginLeft="10dp"
+                          android:width="200dp"/>
+            </TableRow>
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="5"
+                          android:textColor="#2cf90e" android:textSize="18dp"
+                          android:layout_marginLeft="10dp" android:layout_column="0"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Patika ve yollar "
+                          android:textColor="#0610f9" android:textSize="18dp"
+                          android:layout_gravity="center_vertical|left" android:layout_marginLeft="10dp"
+                          android:width="200dp" android:layout_column="1"/>
+
+            </TableRow>
+
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="6"
+                          android:textColor="#2cf90e" android:textSize="18dp"
+                          android:layout_marginLeft="10dp" android:layout_column="0"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:text="Ana yollar (içi turuncu) "  android:textColor="#0610f9"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp"  android:width="200dp" android:layout_column="1"/>
+            </TableRow>
+
+        </TableLayout>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="270dp"
+                android:layout_column="2" android:src="@drawable/resim_siyah"/>
+    </LinearLayout>
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="Haritanın Dili - Yeşil"
+            android:layout_column="1" android:textColor="#03ff0a"
+            android:textSize="20dp" android:layout_gravity="center"
+            android:gravity="center|center_vertical" android:background="@drawable/blue_background"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bitki örtüsünü anlatır: "
+                          android:layout_column="1" android:textColor="#3f1bf9"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp" android:singleLine="false" android:width="150dp"/>
+            </TableRow>
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="        "
+                          android:layout_column="1" android:textColor="#0610f9" android:textSize="18dp"
+                          android:layout_gravity="center_vertical|left" android:layout_marginLeft="10dp"
+                        />
+            </TableRow>
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1"
+                          android:layout_column="0" android:textColor="#2cf90e"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Beyaz, koşmaya uygun ormandır."
+                          android:layout_column="1" android:textColor="#0610f9"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp" android:width="200dp"/>
+            </TableRow>
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2"
+                          android:layout_column="0" android:textColor="#2cf90e"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Yavaş koşulabilir orman "
+                          android:layout_column="1" android:textColor="#0610f9"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp"/>
+            </TableRow>
+
+
+
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3"
+                          android:layout_column="0" android:textColor="#2cf90e"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Koşması zor orman "
+                          android:layout_column="1" android:textColor="#0610f9" android:textSize="18dp"
+                          android:layout_gravity="center_vertical|left" android:layout_marginLeft="10dp"/>
+            </TableRow>
+
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="4"
+                          android:layout_column="0" android:textColor="#2cf90e"
+                          android:textSize="18dp" android:layout_gravity="center_vertical|left"
+                          android:layout_marginLeft="10dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Orman altı çalılar "
+                          android:layout_column="1" android:textColor="#0610f9" android:textSize="18dp"
+                          android:layout_gravity="center_vertical|left" android:layout_marginLeft="10dp"
+                          android:width="200dp"/>
+            </TableRow>
+
+        </TableLayout>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="270dp"
+                android:layout_column="2" android:src="@drawable/resim_yesil"/>
+    </LinearLayout>
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="Haritanın Dili - Kahverengi"
+            android:textColor="#8B4513"
+            android:textSize="20dp" android:layout_gravity="center"
+            android:gravity="center|center_vertical" android:background="@drawable/blue_background"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:background="@drawable/resim_arazi_hatalari">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="Yüzey Toprak şekillerini anlatır: "
+                  android:layout_column="1" android:textColor="#3f1bf9"
+                  android:textSize="18dp" android:layout_gravity="center_vertical|left|top"
+                  android:layout_marginLeft="10dp" android:singleLine="false" android:width="150dp"/>
+    </LinearLayout>
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="Haritanın Dili - Bahçe"
+            android:layout_column="1" android:textColor="#03ff0a"
+            android:textSize="20dp" android:layout_gravity="center"
+            android:gravity="center|center_vertical" android:background="@drawable/blue_background"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Genellikle Çitlerle çevrili,  Binalar içeren ya da yanında,  Parlak yeşil,  Bakım yapılan arazilerdir. Bazende girişi yasak özel mülkü anlatır ve mutlaka erafı geçit vermez çitle çevrilidir"
+                  android:layout_column="1" android:textColor="#3f1bf9"
+                  android:textSize="18dp" android:layout_gravity="center_vertical|left|top"
+                  android:layout_marginLeft="10dp" android:singleLine="false" android:width="200dp"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="270dp"
+                android:layout_column="2" android:src="@drawable/resim_bahce"/>
+    </LinearLayout>
+    <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:text="Genel Olarak Renkleri Özetlersek"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical"
+                    android:textSize="20dp"
+                    android:background="@drawable/blue_background"
+                    android:textColor="#f208a2"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Siyah: İnsan tarafından yapılan eserleri gösterir. Demiryolu, köprü, baca,kaya,bina,yollar vs. "
+                      android:id="@+id/textView1" android:layout_gravity="left|center_vertical" android:textSize="18dp"
+                      android:textColor="#000100"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Mavi: Suyun göstergesidir. Derinliğe göre koyulaşır. Deniz, göl, nehir, çay,kuru dere yatağı,çeşme,kuyu vs. "
+                      android:id="@+id/textView2" android:layout_gravity="left|center_vertical" android:textSize="18dp"
+                      android:textColor="#2c89df"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Yeşil: Orman , otlak ve verimli toprakları gösterir. Koyu renk yoğunluğu gösterir. "
+                      android:id="@+id/textView3" android:layout_gravity="left|center_vertical" android:textSize="18dp"
+                      android:textColor="#23821e"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Kahverengi: Yükseltileri gösterir.Münhani,Toprak ile ilgili nesneleri. "
+                      android:id="@+id/textView4" android:layout_gravity="left|center_vertical" android:textSize="18dp"
+                      android:textColor="#8b4513"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Beyaz: Altında rahatlıkla koşulabilir Ormanlık alanı gösterir."
+                      android:id="@+id/textView5" android:layout_gravity="left|center_vertical" android:textSize="18dp"
+                      android:textColor="#fff"/>
+        </LinearLayout>
+
+    </TableLayout>
+
+</ScrollView>
