@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"> Oryantiring Öğretimi </string>
+    <string name="CopyRight"> Developed By AndroDevTurk</string>
+    <string name="O_nedir">  Her türlü arazi ve iklim şartlarında harita ve pusula yardımı ile bir noktadan başka bir noktaya ulaşabilmek için sporcunun fiziki güçünü,  tekniğini ,   taktiğini  geliştiren ani ve doğru karar verebilme yeteneğini olgunlaştıran, bireysel veya takım olarak genellikle ormanlık alanda yapılmakla  birlikte park ve yeni başlayan sporcular için açık alan ve spor salonlarında   yapılabilen bir doğa sporudur.Hedefleri Sırası ile  en kısa sürede bulan kişi başarılı kabul edilir.</string>
+    <string name="O_nedir1">Oryantiring, her türlü arazide yapılabilen, katılımcıların kontrol noktalarını harita ve pusula yardımıyla sırası ile en kısa zamanda bulmaya çalıştığı bir doğa sporudur. </string>
+    <string name="O_tarih">ORYANTİRİNG TARİHİ </string>
+    <string name="Dunya_tarihi">Dünyada Tarihi:</string>
+    <string name="T1">1890 İlk ortaya çıkışı İsveç’te </string>
+    <string name="T2">1895 İlk resmi müsabaka (İngiltere, İsveç, Norveç)</string>
+    <string name="T3">1932’de ilk uluslar arası yarışma</string>
+    <string name="T4">1961 yılında IOF kuruldu </string>
+    <string name="T5">1965 yılında IOF kuralları standart kurallar oldu </string>
+    <string name="T6">1966 İlk Dünya Şampiyonası.Bugün 68 ülke IOF üyesi</string>
+
+    <string name="Turk_tarihi">Türkiye’deki Tarihi: </string>
+    <string name="T7">İlk 1970’li yıllarda askeri kurumlar</string>
+    <string name="T8">1999 da siviller arasında  yayıldı</string>
+    <string name="T9">2002 de Dağcılık Federasyonuna bağlandı</string>
+    <string name="T10">2002 İlk Türkiye Oryantiring Şampiyonası</string>
+    <string name="T11">2004 başında İzcilik Federasyonu bünyesinde</string>
+    <string name="T12">2006 Nisan ayında özerk federasyon olmuştur</string>
+
+    <string name="O_turleri">ORYANTİRİNG  ÇEŞİTLERİ</string>
+    <string name="T13">Koşu Oryantiringi</string>
+    <string name="T14">Bisiklet Oryantiringi</string>
+    <string name="T13a">Kayak Oryantiringi</string>
+    <string name="T14a">Engelli (Patika) Oryantiringi</string>
+
+    <string name="T15">DİĞER TÜRLER</string>
+    <string name="T16">KANO İLE YAPILAN</string>
+    <string name="T17">RAFT İLE YAPILAN</string>
+    <string name="T18">YAMAÇ PARAŞÜTÜYLE</string>
+    <string name="T19">AT İLE  </string>
+    <string name="T20">SU ALTINDA </string>
+    <string name="T21">Ve Daha Birçok Türlü Alanda</string>
+
+</resources>
